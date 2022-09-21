@@ -26,7 +26,7 @@
       var _hmt = _hmt || [];
       (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        hm.src = "https://hm.baidu.com/hm.js?ba_track_id";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
@@ -57,9 +57,9 @@
   <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="description" content="It&#39;s an IT blog..."/>
-  <meta name="keyword" content="v-vincen,v-vincen,livemylife,IT  blog,Blog"/>
-  <link rel="shortcut icon" href="/img/avatar/roguerabbit.jpg"/>
+  <meta name="description" content="这是一个页面仔的个人博客......"/>
+  <meta name="keyword" content="页面仔,超文本标记语言人肉生成工程师,bug制造机,抠图仔,IT-blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/tiger.png"/>
 
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
@@ -118,11 +118,6 @@
     
 
     
-      <!-- gitalk start -->
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
-      <link rel="stylesheet" href="/css/gitalk.css"/>
-      <!-- gitalk end -->
-    
   
 
   <!-- Custom Fonts -->
@@ -142,7 +137,7 @@
   <link rel="canonical" href="http://yoursite-url/tags/Hexo-Theme-LiveMyLife/">
   <title>
     
-      either thin | or die
+      超文本标记语言人肉生成工程师 | Peterwen-sky
     
   </title>
 <meta name="generator" content="Hexo 5.4.0"></head>
@@ -150,7 +145,7 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--dark">
+	<body ontouchstart="" class="body--light body--light">
 
 
 		<!-- ThemeColor -->
@@ -184,7 +179,7 @@
       ? b.pop()
       : '';
   }
-  let themeMode = 'dark';
+  let themeMode = 'light';
   if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
     let dbody = document.body.classList;
     themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
@@ -230,7 +225,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Your Title</a>
+      <a class="navbar-brand" href="/">Bug Manufacturing Journal</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -391,10 +386,6 @@
     }
 
     
-      #signature {/*signature*/
-        background-image: url('/img/signature/vincent-white.png');
-      }
-    
   </style>
 
 
@@ -409,9 +400,9 @@
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           
           <div class="site-heading">
-            <h1>Your Title</h1>
+            <h1>Bug Manufacturing Journal</h1>
             <!--<hr class="small">-->
-            <span class="subheading">This is hexo theme</span>
+            <span class="subheading">时间会告诉你 所有东西都会过期</span>
           </div>
           
         </div>
@@ -478,6 +469,28 @@
       <!-- 归档列表 -->
       
       <div class="one-tag-list">
+        <span class="fa fa-calendar-times-o listing-seperator" id="2022">
+          <span class="tag-text">2022</span>
+        </span>
+        <ul>
+          
+          <li>
+            09-21
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/cn/vue3-work/" style="color: #0085a1">
+              <span>
+                vue3 element-plus 项目中遇到的一些问题与解决方式
+                
+                -- cn
+                
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      
+      <div class="one-tag-list">
         <span class="fa fa-calendar-times-o listing-seperator" id="2020">
           <span class="tag-text">2020</span>
         </span>
@@ -528,22 +541,6 @@
     sidebar-container
 ">
     
-        <!-- Visitors -->
-<h5><a href="/">VISITORS</a></h5>
-
-<div class="widget">
-  <span>
-    Viewed <b><i><span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Times
-  </span>
-  <br />
-  <span>
-    <b><i><span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Visitors In Total
-  </span>
-</div>
-
-
-        <hr>
-    
         <!-- Featured Tags -->
 
 <section>
@@ -552,6 +549,14 @@
     
     
     <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="2">Hexo-Theme-LiveMyLife</a>
+    
+    
+    
+    <a href="/tags/#vue3" title="vue3" rel="1">vue3</a>
+    
+    
+    
+    <a href="/tags/#element" title="element" rel="1">element</a>
     
     
   </div>
@@ -566,13 +571,13 @@
   <div class="short-about">
 
     
-    <img id="avatar_pic" src="/img/avatar/fatpeople.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
+    <img id="avatar_pic" src="/img/avatar/tiger.png" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
     -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
     -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
     
 
     
-    <p>Fat people have no future, either thin or die...</p>
+    <p>超文本标记语言人肉生成工程师</p>
     
 
     <!-- SNS Link -->
@@ -581,7 +586,7 @@
 
       
       <li>
-        <a target="_blank" href="https://github.com/V-Vincen">
+        <a target="_blank" href="https://github.com/peterwen-psw">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -591,25 +596,7 @@
       
 
       
-      <li>
-        <a target="_blank" href="https://twitter.com/V_Vincen_">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      
 
-      
-      <li>
-        <a target="_blank" href="https://www.instagram.com/v_vincen_">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
       
 
       
@@ -620,7 +607,7 @@
 
       
       <li>
-        <a target="_blank" href="http://weibo.com/WVincen">
+        <a target="_blank" href="http://weibo.com/u/5618957369">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -641,6 +628,10 @@
 <div class="widget">
   <ul>
     
+    <a href="../../cn/vue3-work/">
+      <li>vue3 element-plus 项目中遇到的一些问题与解决方式</li>
+    </a>
+    
     <a href="../../cn/Hexo-Theme-LiveMyLife/">
       <li>Hexo-Theme-LiveMyLife</li>
     </a>
@@ -660,12 +651,6 @@
 <h5><a href="/">FRIENDS</a></h5>
 <ul class="list-inline">
   
-  <li><a href="https://v-vincen.life/" target="_blank">V_Vincen</a></li>
-  
-  <li><a href="http://beantech.org" target="_blank">Bean Tech</a></li>
-  
-  <li><a href="http://huangxuan.me" target="_blank">Hux Blog</a></li>
-  
   <li><a href="https://hexo.io/" target="_blank">Hexo</a></li>
   
 </ul>
@@ -677,7 +662,7 @@
 
 <h5><a href="/archives/">archives</a></h5>
 <div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2020/04/">April 2020</a><span class="archive-list-count">2</span></li></ul>
+  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2022/09/">September 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2020/04/">April 2020</a></li></ul>
 </div>
 
 
@@ -691,6 +676,14 @@
     
     <a href="/categories/#Hexo-Theme-LiveMyLife">
       <li>Hexo-Theme-LiveMyLife</li>
+    </a>
+    
+    <a href="/categories/#element">
+      <li>element</li>
+    </a>
+    
+    <a href="/categories/#vue3">
+      <li>vue3</li>
     </a>
     
   </ul>
@@ -718,7 +711,7 @@
 
           
             <li>
-              <a target="_blank" href="https://github.com/V-Vincen">
+              <a target="_blank" href="https://github.com/peterwen-psw">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -728,25 +721,7 @@
           
 
           
-            <li>
-              <a target="_blank" href="https://twitter.com/V_Vincen_">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          
 
-          
-            <li>
-              <a target="_blank" href="https://www.instagram.com/v_vincen_">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
           
 
           
@@ -757,7 +732,7 @@
 
           
             <li>
-              <a target="_blank" href="http://weibo.com/WVincen">
+              <a target="_blank" href="http://weibo.com/u/5618957369">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -769,7 +744,7 @@
         </ul>
         <p class="copyright text-muted">
           Copyright &copy;
-          Your Name
+          Peterwen-sky
           2022
           <br>
           Theme by
@@ -820,7 +795,7 @@
 
   
     <!-- Mouseclick -->
-    <script type="text/javascript" src="/js/mouseclick.js" content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033'></script>
+    <script type="text/javascript" src="/js/mouseclick.js" content='努力努力再努力...,无Bug 无Bug...,无加班 无加班...,无脱发 无脱发...,无Bug 无Bug...,无加班 无加班...,无脱发 无脱发...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033'></script>
   
 
   

@@ -26,7 +26,7 @@
       var _hmt = _hmt || [];
       (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        hm.src = "https://hm.baidu.com/hm.js?ba_track_id";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();
@@ -57,9 +57,9 @@
   <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="description" content="It&#39;s an IT blog..."/>
-  <meta name="keyword" content="v-vincen,v-vincen,livemylife,IT  blog,Blog"/>
-  <link rel="shortcut icon" href="/img/avatar/roguerabbit.jpg"/>
+  <meta name="description" content="这是一个页面仔的个人博客......"/>
+  <meta name="keyword" content="页面仔,超文本标记语言人肉生成工程师,bug制造机,抠图仔,IT-blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/tiger.png"/>
 
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
@@ -118,11 +118,6 @@
     
 
     
-      <!-- gitalk start -->
-      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
-      <link rel="stylesheet" href="/css/gitalk.css"/>
-      <!-- gitalk end -->
-    
   
 
   <!-- Custom Fonts -->
@@ -142,7 +137,7 @@
   <link rel="canonical" href="http://yoursite-url/en/Hexo-Theme-LiveMyLife/">
   <title>
     
-      Hexo-Theme-LiveMyLife - either thin | or die
+      Hexo-Theme-LiveMyLife - 超文本标记语言人肉生成工程师 | Peterwen-sky
     
   </title>
 <meta name="generator" content="Hexo 5.4.0"></head>
@@ -150,7 +145,7 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--dark">
+	<body ontouchstart="" class="body--light body--light">
 
 
 		<!-- ThemeColor -->
@@ -184,7 +179,7 @@
       ? b.pop()
       : '';
   }
-  let themeMode = 'dark';
+  let themeMode = 'light';
   if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
     let dbody = document.body.classList;
     themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
@@ -230,7 +225,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Your Title</a>
+      <a class="navbar-brand" href="/">Bug Manufacturing Journal</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -393,10 +388,6 @@
     }
 
     
-      #signature {/*signature*/
-        background-image: url('/img/signature/vincent-white.png');
-      }
-    
   </style>
 
 
@@ -419,7 +410,7 @@
             <h1>Hexo-Theme-LiveMyLife</h1>
             <h2 class="subheading">A succinct hexo theme...</h2>
             <span class="meta">
-              Posted by Your Name on
+              Posted by Peterwen-sky on
               2020-04-17
             </span>
 
@@ -732,56 +723,6 @@ Gitee Repo: <a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/h
         <!-- comments start -->
         <!-- 1. gitalk comment -->
 
-  <!-- gitalk start -->
-  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
-
-  <div id="gitalk-container"></div>
-
-  
-    <!-- <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.js"></script> -->
-    <script src="/js/comment/gitalk.js"></script>
-  
-
-  <script>
-    var gitalk = new Gitalk({
-      clientID: '',
-      clientSecret: '',
-      repo: '',
-      owner: '',
-      admin: '',
-      id: 'Fri Apr 17 2020 02:34:17 GMT+0800', // Ensure uniqueness and length less than 50
-      distractionFreeMode: false, // Facebook-like distraction free mode
-      perPage: 10,
-      pagerDirection: 'last',
-      createIssueManually: false,
-      language: 'en',
-      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
-    });
-    gitalk.render('gitalk-container');
-
-    var gtFolded = () => {
-      setTimeout(function () {
-        let markdownBody = document.getElementsByClassName("markdown-body");
-        let list = Array.from(markdownBody);
-        list.forEach(item => {
-          if (item.clientHeight > 250) {
-            item.classList.add('gt-comment-body-folded');
-            item.style.maxHeight = '250px';
-            item.title = 'Click to Expand';
-            item.onclick = function () {
-              item.classList.remove('gt-comment-body-folded');
-              item.style.maxHeight = '';
-              item.title = '';
-              item.onclick = null;
-            };
-          }
-        })
-      }, 800);
-    }
-  </script>
-
-  <!-- gitalk end -->
-
 
 <!-- 2. gitment comment -->
 
@@ -837,18 +778,6 @@ Gitee Repo: <a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/h
         <h5>FRIENDS</h5>
         <ul class="list-inline">
 
-          
-          <li>
-            <a href="https://v-vincen.life/" target="_blank">V_Vincen</a>
-          </li>
-          
-          <li>
-            <a href="http://beantech.org" target="_blank">Bean Tech</a>
-          </li>
-          
-          <li>
-            <a href="http://huangxuan.me" target="_blank">Hux Blog</a>
-          </li>
           
           <li>
             <a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -921,7 +850,7 @@ Gitee Repo: <a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/h
 
           
             <li>
-              <a target="_blank" href="https://github.com/V-Vincen">
+              <a target="_blank" href="https://github.com/peterwen-psw">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -931,25 +860,7 @@ Gitee Repo: <a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/h
           
 
           
-            <li>
-              <a target="_blank" href="https://twitter.com/V_Vincen_">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          
 
-          
-            <li>
-              <a target="_blank" href="https://www.instagram.com/v_vincen_">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
           
 
           
@@ -960,7 +871,7 @@ Gitee Repo: <a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/h
 
           
             <li>
-              <a target="_blank" href="http://weibo.com/WVincen">
+              <a target="_blank" href="http://weibo.com/u/5618957369">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
@@ -972,7 +883,7 @@ Gitee Repo: <a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/h
         </ul>
         <p class="copyright text-muted">
           Copyright &copy;
-          Your Name
+          Peterwen-sky
           2022
           <br>
           Theme by
@@ -1023,7 +934,7 @@ Gitee Repo: <a target="_blank" rel="noopener" href="https://gitee.com/V_Vincen/h
 
   
     <!-- Mouseclick -->
-    <script type="text/javascript" src="/js/mouseclick.js" content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033'></script>
+    <script type="text/javascript" src="/js/mouseclick.js" content='努力努力再努力...,无Bug 无Bug...,无加班 无加班...,无脱发 无脱发...,无Bug 无Bug...,无加班 无加班...,无脱发 无脱发...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033'></script>
   
 
   
